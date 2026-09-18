@@ -1,0 +1,123 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+#current-player-display {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1a73e8;
+    margin-bottom: 20px;
+    background: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.setup {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #444;
+}
+
+#player_count {
+    border: 2px solid #1a73e8;
+    padding: 6px;
+    border-radius: 8px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.border {
+    width: 55px;
+    height: 55px;
+    background-color: #f8f9fa;
+    border: 2px solid #dee2e6;
+    color: #333;
+}
+
+.chosen {
+    width: 55px;
+    height: 55px;
+    background-color: #ff9800;
+    border: 2px solid #f57c00;
+    color: white;
+}
+
+.choose {
+    padding: 12px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    min-width: 90px;
+    margin-top: 10px;
+}
+
+.choose:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+}
+
+.choose.disabled {
+    background-color: #e9ecef;
+    color: #adb5bd;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+#play__btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#play__btn:hover {
+    background-color: #1557b0;
+}
+
+#play__btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
