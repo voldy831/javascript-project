@@ -44,3 +44,10 @@ The primary objective is to clear all numbers on your board before other players
 - **JavaScript (ES6+)**: DOM manipulation, event management, state tracking, and turn-based game logic.
 
 ---
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/voldy831/javascript-project.git](https://github.com/voldy831/javascript-project.git)
+   ```
