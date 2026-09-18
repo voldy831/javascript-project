@@ -1,3 +1,7 @@
+# 🔍 Interactive Posts Feed
+
+> 🚀 **Live Demo:** [Watch the demo in the browser](https://voldy831.github.io/javascript-project/)
+
 # 🎲 Shut the Box (Game 12)
 
 A clean, interactive web-based adaptation of the classic dice-board game **Shut the Box** built with Vanilla JavaScript, HTML5, and CSS3.
@@ -44,10 +48,3 @@ The primary objective is to clear all numbers on your board before other players
 - **JavaScript (ES6+)**: DOM manipulation, event management, state tracking, and turn-based game logic.
 
 ---
-
-## 🚀 Quick Start
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/voldy831/javascript-project.git](https://github.com/voldy831/javascript-project.git)
-   ```
